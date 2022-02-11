@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.main {
+    margin-left: 120px;
+    font-weight: 700;
+}
+
+.navbar-nav {
+    width: 600px;
+}
+
+.top-section {
+    /* background-image: url("assets/img/bg-masthead.jpg"); */
+    background-image: linear-gradient(rgba(97, 80, 68, 0.8), rgba(97, 80, 68, 0.8)), url("./assets/img/bg-masthead.jpg");    
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    
+}
+
+.nav-bg {
+    background: transparent !important;
+}
+
+a {
+    color: white !important;
+    font-weight: 600;
+}
+
+
+.li-col {
+    font-size: 16px;
+    padding-right: 40px;
+    
+}
+
+.li-col > li {
+    padding-right: 30px;
+}
+
+.btn-1 {
+    background-color: #F4623A;
+    padding: 15px;
+    width: 160px;
+    border-radius: 80px;
+    font-weight: 700; 
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btn-1:hover {
+    background-color: #d66140;
+    cursor: pointer;
+}
+
+.navbar {
+    padding-bottom: 100px;
+}
+
+.section-2 > h1 {
+    font-size: 55px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+
+
+
+.section-p2 {
+    padding-top: 150px;
+    background-color: #F4623A;
+    height: 550px;
+    
+}
+
+.section-2 > p {
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+    padding-top: 20px;
+    max-width: 560px;
+    text-align: center;
+}
+
+.btn-2 {
+    color: black;
+    background-color: white;
+    padding: 15px;
+    width: 160px;
+    border-radius: 80px;
+    font-weight: 700; 
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.section-p2 > h1 {
+    margin-bottom: 40px;
+}
+.section-p2 > p {
+    margin-top: 40px;
+    text-align: center;
+    max-width: 560px;
+}
+
+.section-p3 {
+    margin-top: 120px;
+    /* border: 2px solid red; */
+    margin-bottom: 120px;
+}
+
+.section-p3 > h1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.section-p3 > h1, .section-p3 > h2, .section-p3 p {
+    color: black;
+}
+
+.sub-section-p3 {
+    color: black;
+    margin-top: 60px;
+}
+.sub-section-p3 > div > p, h2 {
+    text-align: center;
+}
+
+.sub-section-p3 > div > h2 {
+    font-size: 23px;
+}
+
+.sub-section-p3 > div {
+    max-width: 270px;
+}
+
+.sub-section-p3 > div > i {
+    color: #F4623A;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.section-p4 > div > div {
+    width: 33.33%;
+    position: relative;
+}
+.section-p4 > div > div > img { 
+    width: 100%;
+}
+
+.flash {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* border: 2px solid red; */
+    background-color: rgba(244, 98, 58, 0.9);
+    transition: all;
+    /* display: none !important;  */
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+.section-p4 > div > div:hover .flash {
+    /* display: flex !important; */
+    opacity: 1;
+} 
+
+.flash-p1 {
+    color: grey;
+    font-weight: 600;
+    text-transform: uppercase;
+} 
+
+
+.flash-h3 {
+    color: white;
+}
+
+.section-p5 {
+    background-color: #212529;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.section-p5 > h1 {
+    font-size: 34px;
+}
+
+.btn-3 {
+    margin-top: 30px;
+    width: 190px;
+    font-size: large;
+}
+
+.section-p6 {
+   background-color: white;
+   padding-top: 70px;
+   padding-bottom: 100px;
+}
+
+.section-p6 > h1 {
+    color: black;
+    font-size: 30px;
+}
+
+.section-p6 > p {
+    font-size: 17px;
+    margin-top: 45px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.section-p6 > form > input {
+    width: 500px;
+}
+
+.section-p6 > form > textarea {
+    align-self: center;
+    width: 500px;
+    color: black;
+}
+
+.section-p6 > form > button {
+    font-size: 20px;
+    font-weight: 750;
+    margin-top: 25px;
+    width: 500px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #F4623A;
+    margin-bottom: 150px  ;
+}
+
+.section-p6 > i {
+    font-size: 50px;
+    color: grey;
+    padding: 0;
+    
+}
+
+.section-p6 > p {
+    font-size: 18px;
+    color: black;
+}
+
+footer > p {
+    text-align: center;
+    padding-bottom: 25px;
+    color: black;
+}
